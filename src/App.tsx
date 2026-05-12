@@ -1,8 +1,15 @@
+import { Route, Routes } from "react-router-dom";
+import Layout from "./components/Layout";
+import AgentsPage from "./pages/AgentsPage";
+import AgentDetailPage from "./pages/AgentDetailPage";
+
 export default function App() {
   return (
-    <main style={{ fontFamily: "system-ui, sans-serif", padding: "2rem" }}>
-      <h1>Agent Portal</h1>
-      <p>Coming soon.</p>
-    </main>
+    <Routes>
+      <Route element={<Layout />}>
+        <Route index element={<AgentsPage />} />
+        <Route path="/agents/:agentId" element={<AgentDetailPage />} />
+      </Route>
+    </Routes>
   );
 }
