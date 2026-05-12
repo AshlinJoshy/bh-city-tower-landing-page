@@ -1,10 +1,11 @@
+import Img from './Img';
+
 export default function BackedByExperience() {
   return (
     <section className="relative w-full bg-ink text-white overflow-hidden">
       {/* background interior image with low opacity */}
-      <img
-        src="/images/interior-dark.svg"
-        alt=""
+      <Img
+        src="/images/interior-dark"
         aria-hidden
         className="absolute inset-0 h-full w-full object-cover opacity-30 mix-blend-luminosity"
       />
@@ -24,9 +25,8 @@ export default function BackedByExperience() {
 
           {/* Right column: small inset image */}
           <div className="col-span-3 col-start-10 flex justify-end">
-            <img
-              src="/images/experience-small.svg"
-              alt=""
+            <Img
+              src="/images/experience-small"
               aria-hidden
               className="h-[400px] w-[320px] rounded-sm object-cover"
             />
@@ -37,9 +37,8 @@ export default function BackedByExperience() {
         <div className="mt-20 grid grid-cols-12 gap-8">
           {/* small left image */}
           <div className="col-span-4 col-start-1">
-            <img
-              src="/images/lifestyle-detail.svg"
-              alt=""
+            <Img
+              src="/images/lifestyle-detail"
               aria-hidden
               className="h-[430px] w-full rounded-sm object-cover"
             />

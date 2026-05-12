@@ -1,3 +1,5 @@
+import Img from './Img';
+
 const LOCATION_PILLS = [
   '5-minute walk to Emirates Towers Metro',
   'Quick links to DIFC and Downtown',
@@ -9,9 +11,8 @@ export default function YourCity() {
   return (
     <section className="relative w-full bg-ink text-white overflow-hidden">
       {/* background night cityscape */}
-      <img
-        src="/images/city-night.svg"
-        alt=""
+      <Img
+        src="/images/city-night"
         aria-hidden
         className="absolute inset-0 h-full w-full object-cover opacity-70"
       />
@@ -59,9 +60,8 @@ export default function YourCity() {
 
           {/* Right: moon/sphere graphic */}
           <div className="col-span-4 col-start-9 relative flex items-start justify-center pt-12">
-            <img
-              src="/images/moon.svg"
-              alt=""
+            <Img
+              src="/images/moon"
               aria-hidden
               className="h-[150px] w-[130px] rounded-full object-cover"
             />

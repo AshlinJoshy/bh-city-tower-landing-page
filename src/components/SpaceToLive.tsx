@@ -1,3 +1,5 @@
+import Img from './Img';
+
 const UNIT_SIZES: Array<{ label: string; size: string }> = [
   { label: 'Studio', size: '420 – 667 ft²' },
   { label: '1-Bedroom', size: '785 – 1777 ft²' },
@@ -20,14 +22,14 @@ export default function SpaceToLive() {
         <div className="grid grid-cols-12 gap-8">
           {/* Left: sofa interior with badge */}
           <div className="col-span-6 relative">
-            <img
-              src="/images/interior-sofa.svg"
+            <Img
+              src="/images/interior-sofa"
               alt="Furnished apartment living area"
               className="h-[628px] w-full rounded-sm object-cover"
             />
             {/* circular studio badge overlapping bottom-left */}
-            <img
-              src="/images/studio-badge.svg"
+            <Img
+              src="/images/studio-badge"
               alt="Studio to 4-bedrooms badge"
               className="absolute -bottom-12 left-12 h-[150px] w-[150px] rounded-full"
             />
@@ -35,8 +37,8 @@ export default function SpaceToLive() {
 
           {/* Right: skyline + description + unit table */}
           <div className="col-span-6 flex flex-col gap-8">
-            <img
-              src="/images/skyline.svg"
+            <Img
+              src="/images/skyline"
               alt="City skyline view from City Tower"
               className="h-[628px] w-full rounded-sm object-cover"
             />

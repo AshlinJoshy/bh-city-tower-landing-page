@@ -1,3 +1,5 @@
+import Img from './Img';
+
 export default function UrbanLiving() {
   return (
     <section className="relative w-full bg-white">
@@ -51,18 +53,18 @@ export default function UrbanLiving() {
               className="absolute left-1/2 top-0 bottom-0 w-px bg-ink/15"
             />
             <div className="relative flex flex-col gap-[70px]">
-              <img
-                src="/images/dining-3.svg"
+              <Img
+                src="/images/dining-3"
                 alt="Dining area detail"
                 className="h-[138px] w-full rounded-sm object-cover"
               />
-              <img
-                src="/images/dining-1.svg"
+              <Img
+                src="/images/dining-1"
                 alt="Dining area"
                 className="h-[356px] w-full rounded-sm object-cover"
               />
-              <img
-                src="/images/dining-2.svg"
+              <Img
+                src="/images/dining-2"
                 alt="Dining area"
                 className="h-[356px] w-full rounded-sm object-cover"
               />

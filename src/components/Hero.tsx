@@ -1,3 +1,5 @@
+import Img from './Img';
+
 export default function Hero() {
   return (
     <section id="top" className="relative w-full bg-ink text-white overflow-hidden">
@@ -6,25 +8,22 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-[#1a0707] via-ink to-[#160202]" />
 
         {/* cloud overlay (left) */}
-        <img
-          src="/images/hero-cloud.svg"
-          alt=""
+        <Img
+          src="/images/hero-cloud"
           aria-hidden
           className="absolute -left-[105px] top-[420px] w-[905px] h-[540px] object-cover mix-blend-screen opacity-40"
         />
 
         {/* main tower (centered, behind heading) */}
-        <img
-          src="/images/hero-tower.svg"
-          alt=""
+        <Img
+          src="/images/hero-tower"
           aria-hidden
           className="absolute left-1/2 top-[180px] -translate-x-1/2 w-[635px] h-[652px] object-cover"
         />
 
         {/* second tower (right) */}
-        <img
-          src="/images/hero-tower-2.svg"
-          alt=""
+        <Img
+          src="/images/hero-tower-2"
           aria-hidden
           className="absolute left-[882px] top-[440px] w-[759px] h-[614px] object-cover mix-blend-luminosity opacity-70"
         />

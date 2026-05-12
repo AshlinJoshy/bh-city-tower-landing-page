@@ -1,3 +1,5 @@
+import Img from './Img';
+
 const FEATURES = [
   'Fully equipped gym with Technogym and a dedicated movement studio',
   'Infinity pool, children’s pool & 2 Jacuzzis',
@@ -10,9 +12,8 @@ export default function LifestyleWellness() {
     <section className="relative w-full overflow-hidden">
       {/* full-bleed background image with subtle dark overlay */}
       <div className="relative h-[780px] w-full">
-        <img
-          src="/images/gym.svg"
-          alt=""
+        <Img
+          src="/images/gym"
           aria-hidden
           className="absolute inset-0 h-full w-full object-cover"
         />

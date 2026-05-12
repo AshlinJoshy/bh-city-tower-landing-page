@@ -1,3 +1,5 @@
+import Img from './Img';
+
 const NAV_LINKS = [
   'Buy',
   'Rent',
@@ -15,8 +17,8 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 w-full bg-[rgba(237,232,228,0.6)] backdrop-blur-md">
       <div className="mx-auto flex h-[87px] max-w-[1440px] items-center justify-between px-16 pb-[22px] pt-4">
         <a href="#top" className="flex items-center">
-          <img
-            src="/images/bh-logo-dark.svg"
+          <Img
+            src="/images/bh-logo-dark"
             alt="bh-homes"
             className="h-[30px] w-[221px]"
           />
