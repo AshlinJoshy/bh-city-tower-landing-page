@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 30" preserveAspectRatio="xMidYMid slice" width="220" height="30">
+  <defs>
+    <linearGradient id="gc7jrz2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3D1F18"/>
+      <stop offset="1" stop-color="#210302"/>
+    </linearGradient>
+    <radialGradient id="rc7jrz2" cx="0.3" cy="0.2" r="0.9">
+      <stop offset="0" stop-color="#3D1F18" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#210302" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="220" height="30" fill="url(#gc7jrz2)"/>
+  <rect width="220" height="30" fill="url(#rc7jrz2)"/>
+  <g opacity="0.18" fill="#fff" font-family="serif" font-style="italic">
+    <text x="110" y="15" text-anchor="middle" font-size="2.5">bh-homes</text>
+  </g>
+</svg>

@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- PP Museum (display) ---------- */
+@font-face {
+  font-family: 'PP Museum';
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/PPMuseum-Thin.otf') format('opentype');
+}
+@font-face {
+  font-family: 'PP Museum';
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/ppmuseum-light.otf') format('opentype');
+}
+@font-face {
+  font-family: 'PP Museum';
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+  src: url('/fonts/ppmuseum-lightitalic.otf') format('opentype');
+}
+@font-face {
+  font-family: 'PP Museum';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/ppmuseum-regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'PP Museum';
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url('/fonts/ppmuseum-regularitalic.otf') format('opentype');
+}
+@font-face {
+  font-family: 'PP Museum';
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/ppmuseum-ultrabold.otf') format('opentype');
+}
+
+/* ---------- Graphik (body) ---------- */
+@font-face {
+  font-family: 'Graphik';
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/Graphik-Thin.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Graphik';
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/Graphik-Extralight.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Graphik';
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/Graphik-Light.otf') format('opentype'),
+       url('/fonts/Graphik-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Graphik';
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+  src: url('/fonts/Graphik-LightItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Graphik';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/Graphik-Regular.otf') format('opentype'),
+       url('/fonts/Graphik-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Graphik';
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url('/fonts/Graphik-RegularItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Graphik';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/Graphik-Medium.otf') format('opentype'),
+       url('/fonts/Graphik-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Graphik';
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/Graphik-Semibold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Graphik';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/Graphik-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Graphik';
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/Graphik-Black.ttf') format('truetype');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Graphik', 'Inter', system-ui, sans-serif;
+  font-weight: 300;
+  color: #210302;
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-display {
+  font-family: 'PP Museum', 'Cormorant Garamond', 'Times New Roman', serif;
+  font-weight: 100;
+  letter-spacing: -0.01em;
+}
+
+.text-fade {
+  background: linear-gradient(
+    165deg,
+    rgba(33, 3, 2, 1) 10%,
+    rgba(33, 3, 2, 0) 123%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.text-fade-light {
+  background: linear-gradient(
+    169deg,
+    rgba(255, 255, 255, 1) 46%,
+    rgba(255, 255, 255, 0) 107%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.text-fade-sand {
+  background: linear-gradient(
+    158deg,
+    rgba(212, 189, 156, 1) 10%,
+    rgba(212, 189, 156, 0) 123%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
